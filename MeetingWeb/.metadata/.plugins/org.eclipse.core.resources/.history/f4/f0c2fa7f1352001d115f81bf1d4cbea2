@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmls:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Meeting</title>
+<meta name="vieport" content="width=device-widith, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+<link rel="stulesheet" type="text/css" href="http://cdn.jsdelivr.net/webjars/bootsrap/4.1.0/css/bootstrap.min.css">
+<link rel="stulesheet" type="text/css" th:href="@{/css/custom.css}" />
+
+</head>
+
+
+<body>
+<nav class="navbar navbar-dark bg-info navbar-expand-sm">
+	<a class="navbar-brand brand-text" href="#">
+	Meeting maker
+	</a>
+
+</nav>
+
+	
+		
+		
+				
+		</div>
+	</div>
+</body>
+</html>	

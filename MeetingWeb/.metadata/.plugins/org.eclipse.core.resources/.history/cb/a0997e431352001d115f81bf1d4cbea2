@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmls:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Meeting</title>
+
+</head>
+
+
+<body>
+<nav class="navbar navbar-dark bg-info navbar-expand-sm">
+	<a class="navbar-brand brand-text" href="#">
+	Meeting maker
+	</a>
+
+</nav>
+
+	
+		
+		
+				
+		</div>
+	</div>
+</body>
+</html>	

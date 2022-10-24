@@ -1,0 +1,42 @@
+package com.example.task.model;
+
+import java.time.LocalDate;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.validation.constraints.NotEmpty;
+
+import org.springframework.format.annotation.DateTimeFormat;
+
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+
+@Data
+@Entity
+@NoArgsConstructor
+
+public class Meeting {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	@NotEmpty(message = "Meeting name is required")
+	private String name;
+	@NotEmpty(message = "Meeting responsible person name is required")
+	private String responsibleperson;
+	@NotEmpty(message = "Meeting description is required")
+	private String description;
+	@NotEmpty(message = "Meeting subject is required")
+	private String subject;
+	@NotEmpty(message = "Meeting location is required")
+	private String location;
+	
+	@DateTimeFormat(pattern = "yyyy-MM-dd'T'HH:mm")
+	private LocalDate startdateTime;
+	@DateTimeFormat(pattern = "yyyy-MM-dd'T'HH:mm")
+	private LocalDate enddateTime;
+	
+}

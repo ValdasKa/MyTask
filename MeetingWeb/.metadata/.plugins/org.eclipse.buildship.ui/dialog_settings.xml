@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.buildship.ui.wizard.project.import">
+		<item key="project_location" value="C:\Users\valda\OneDrive\Desktop\Taks\MeetingWeb\task"/>
+		<item key="gradle_distribution" value="GRADLE_DISTRIBUTION(VERSION(7.3.1))"/>
+	</section>
+	<section name="org.eclipse.buildship.ui.wizard.project.creation">
+		<item key="project_location" value="C:\Users\valda\OneDrive\Desktop\Taks\MeetingWeb\test"/>
+		<item key="use_default_location" value="true"/>
+	</section>
+</section>
